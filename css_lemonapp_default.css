@@ -1,0 +1,312 @@
+/* Fontes: Início */
+.klip-toolbar {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.cx-input-label {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size:12px;
+    margin-right: 10px;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.highcharts-legend-item {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size:12px;
+    margin-right: 10px;
+    line-height: 150%;
+}
+
+.hasDatepicker {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size:12px;
+    margin-right: 10px;
+}
+
+.label-inner {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.label-size-1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size:12px;
+    vertical-align: bottom;
+}
+
+.label-size-2 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size:26px;
+    vertical-align: bottom;
+}
+
+.label-size-3 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size:30px;
+    vertical-align: bottom;
+}
+
+.label-size-4 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size:40px;
+    vertical-align: bottom;
+}
+
+.dashboard-tab.active {
+    font-weight: bold;
+}    
+
+/* Fontes: Fim */
+
+/* Cores: Início */
+
+/* Linha imediatamente abaixo do cabeçalho em Library, Users, Account, etc. */
+#c-header {
+    /* border-bottom-color: #246E37; */
+	border-bottom-color: #2d3542;
+}
+
+/* Botões. Exemplo: Add a Widget, Layout, Share, Delete, etc. */
+ul.toolbar-tabs li, .rounded-button.primary {
+    /* background-color: #44B061; */
+	background-color: #6bbab6;
+}
+
+/* Botões de widgets ou data sources, como Edit, Edit Widget, etc.*/
+.rounded-link, a.rounded-link {
+	/* Mesma cor do logo mas com transparência */
+	background-color: rgba(18, 187, 183, 0.3);
+}
+
+.rounded-link:hover {
+	/* Mesma cor do logo mas com transparência */
+	background-color: rgba(18, 187, 183, 0.6);
+}
+
+
+/* Cor do realce sublinhado ativo em Dashboard, Library, Users, Data sources, etc. */
+#nav-main li.active, #nav-main li.active:hover, .admin-tab.active, .admin-tab.active:hover, table.dataGrid th.activeSortAsc, table.dataGrid th.activeSortDesc, .fixed-header #nav-main li.active  {
+    /* border-bottom-color: #44B061; */
+	border-bottom-color: #6bbab6;
+}
+
+/* Botões normais */
+.rounded-button.strong-primary, .rounded-button.strong-primary {
+    /* background-color: #246E37; */
+	background-color: #6bbab6;
+}
+
+/* Botões selecionados (mouse hover). */
+.panel-a, ul.toolbar-tabs li:hover, .rounded-button.strong-primary:hover, .rounded-button.primary:hover, button.large-blue:hover {
+    /* background-color: #174F26; */
+	background-color: #2d3542;
+}
+
+/* Cor de fundo da barra de dashboards */
+.dashboard-tab-strip {
+	background-color: #cecece;
+}
+
+/* Efeito da borda inferior da barra de dashboards quando fixada no topo */
+.panel.panel-a {
+    background-color: #808080;
+}
+.dashboard-tab-strip.fixed-header {
+    -webkit-box-shadow: 0 0.3px 20px 0 #808080;
+    -moz-box-shadow: 0 0.3px 20px 0 #808080;
+	box-shadow: 0 0.3px 20px 0 #808080;
+}
+
+/* Dashboard inativo na barra de dashboards */
+.dashboard-tab {
+	color: #000000;
+	background-color: #cecece;
+	border-right: 1px solid #e6e6e8;
+}
+
+/* Dashboard ativo na barra de dashboards */
+.dashboard-tab.active, .dashboard-tab:hover {
+	color: #000000;
+	background-color: #e6e6e8;
+}
+
+/* Botão grande para conexão com outros sistemas */
+button.large-blue {
+	background-color: #12bbb7;
+	border-color: #253341;
+}
+
+ul.toolbar-tabs li.active {
+    /* background-color: #174F26; */
+	background-color: #2d3542;
+}
+
+/* Barra lateral para opções selecionadas em caixas de diálogo */
+.dialog .side-nav-link.selected {
+	border-right-color: #12bbb7;
+}
+
+/* Links que aparecem ao clicar no botão "Add a Widget" */
+.pagerLabels, .link.all-db {
+	color: #FFFFFF;
+}
+
+.link.all-db:hover {
+	color: #12bbb7;
+}
+
+/* Widget selecionado para adicionar ao dashboard no botão "Add a Widget" */
+.action-add:hover {
+	/* Mesma cor do logo mas com transparência */
+	background-color: rgba(18, 187, 183, 0.3)/
+}
+
+/* Itens selecionados no menu de contexto */
+.context-menu .menu-item.parent-menu.active, .context-menu .menu-item:hover {
+	/* Mesma cor do logo mas com transparência */
+	background-color: rgba(18, 187, 183, 0.3);
+}
+
+
+.rounded-button.call-to-action {
+	background-color: 
+}
+
+/* Cores alternadas de linhas de tabelas do Lemon : Início */ 
+.cx-table .overview tr:nth-child(odd){
+	/* background-color: #fefefe !important;  */
+	background-color: #fefefe;
+}
+.cx-table .overview tr:nth-child(even){
+	/* background-color:#e6e6e8 !important;*/
+	background-color:#e6e6e8;
+}
+.cx-table td {
+    background-color: transparent;
+}
+
+/* Mensagem de status no topo do Lemon */
+.status-message {
+	background-color: #12bbb7;
+}
+
+/* Cores alternadas de linhas de tabelas do Lemon : Fim */
+
+/* Cores: Fim */
+
+/* Melhorias em componentes HTML: Início */
+
+/* Permite que qualquer grid exiba uma barra de rolagem horizontal quando tiver uma largura definida em pixels: Início */
+.comp.cx-panel_grid {
+    overflow-x: auto;
+}
+/* Permite que qualquer grid exiba uma barra de rolagem horizontal quando tiver uma largura definida em pixels: Fim */
+
+
+/* Configuração dos 3 pontos de opções: Início */
+.three-dots {
+	background-image:url('https://app.lemonapp.com.br/assets/file/@5d36ffe90dddfce8b0e9fcba26777a34/threedots-fundo-claro.svg');
+	opacity: 0.5;
+}
+.three-dots:hover {
+    opacity: 1;
+}
+
+/* Configuração dos 3 pontos de opções: Fim */
+
+/* Imagens de botões: Início */
+/* Botão adicionar redondo (sinal + no centro) */
+.circle-add, .action-add.panel-add-tab {
+	background-image: url('https://app.lemonapp.com.br/assets/file/@27900a187adea61dd388cbdb4cc98653/circle-add.svg');
+}
+
+/* Botão de flecha para esquerda */
+.pageButton.left, .dialog .back-button, .back-button a, .dashboard-tabs-container .btn-scroll.left-scroll, .fixed-header .dashboard-tabs-container .btn-scroll.left-scroll {
+	background-image: url('https://app.lemonapp.com.br/assets/file/@90a5d475b4481854cb8683b9aa3f13dc/arrow-previous.svg');
+}
+
+/* Botão de flecha para direita */
+.pageButton.right, .dashboard-tabs-container .btn-scroll.right-scroll, .fixed-header .dashboard-tabs-container .btn-scroll.right-scroll {
+	background-image: url('https://app.lemonapp.com.br/assets/file/@4c76dca58585b85e6930ba53a1cebed2/arrow-next.svg');
+}
+
+/* Botão de flecha para baixo para seleção de dashboards */
+.circle-caret-down {
+	background-image: url('https://app.lemonapp.com.br/assets/file/@0aa781e4f3eb2646d00f4babe9abf46e/circle-caret-down.svg');
+}
+
+/* Insere botão de navegação para esquerda na barra de dashboards */
+.dashboard-tabs-container .btn-scroll.left-scroll {
+    height: 25px;
+    width: 25px;
+    margin: 8px 8px 8px 5px;
+}
+.dashboard-tabs-container .btn-scroll.left-scroll:hover {
+    -webkit-filter: saturate(200%);
+}
+.fixed-header .dashboard-tabs-container .btn-scroll.left-scroll {
+    height: 20px;
+    width: 20px;
+    margin: 4px 8px 7px 5px;
+}
+.fixed-header .dashboard-tabs-container .btn-scroll.left-scroll:hover {
+    -webkit-filter: saturate(200%);
+}
+
+
+/* Insere botão de navegação para direita na barra de dashboards */
+.dashboard-tabs-container .btn-scroll.right-scroll {
+    height: 25px;
+    width: 25px;
+    margin: 8px 3px 8px 5px;
+}
+.dashboard-tabs-container .btn-scroll.right-scroll:hover {
+    -webkit-filter: saturate(200%);
+}
+.fixed-header .dashboard-tabs-container .btn-scroll.right-scroll {
+    height: 20px;
+    width: 20px;
+    margin: 4px 3px 7px 5px;
+}
+.fixed-header .dashboard-tabs-container .btn-scroll.right-scroll:hover {
+    -webkit-filter: saturate(200%);
+}
+
+
+/* Imagens de botões: Fim */
+
+/* Melhorias em componentes HTML: Fim */
+
+
+/* Ocultar botões e outros campos: Início */
+
+.help-icon, .code, #tb-panel-layout span.help-icon  {
+	display: none;
+}
+
+#b-delete_user, #tab-roles, #b-add_role, #b-delete_role, #b-delete_client, #trial-container, #build-klip-button, #moreHelp, .roleChk[name*="roles[0]"], .roleChk[name*="roles[1]"], .roleChk[name*="roles[2]"] {
+    display: none;
+}
+
+.massDelete {
+    display: none;
+}
+
+a[href*="/datasources/setup?type=xero"], a[href*="/datasources/setup?type=email"], a[href*="/datasources/setup?type=box"], a[href*="/datasources/setup?type=appfigures"], a[href*="/datasources/setup?type=hubspot"], a[href*="/datasources/setup?type=shopify"], a[href*="/datasources/setup?type=quickbooks"], a[href*="/datasources/setup?type=pinterest"], a[href*="/datasources/setup?type=versature"], a[href*="klipfolio"], a[href*="/roles/edit"] {
+    display: none;
+}
+
+a[href*="/oauth/create?sp=uservoice"], a[href*="/oauth/create?sp=smartsheet"], a[href*="/oauth/create?sp=aweber"], a[href*="/oauth/create?sp=surveygizmo"] , a[href*="/oauth/create?sp=box"], a[href*="/oauth/create?sp=vkontakte"], a[href*="/oauth/create?sp=podio"], a[href*="/oauth/create?sp=appfigures"], a[href*="/oauth/create?sp=bitly"], a[href*="/oauth/create?sp=buffer"], a[href*="/oauth/create?sp=yahoo"], a[href*="/oauth/create?sp=pinterest"], a[href*="/oauth/create?sp=versature"] {
+    display: none;
+}
+
+div#dialog-add_klip table tbody tr td.top div.content-pane div.footer-bar {
+    display: none;
+}
+
+.prop-delete {
+	display: none;
+}
+
+/* Ocultar botões e outros campos: Fim */
