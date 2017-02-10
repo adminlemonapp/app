@@ -1,9 +1,4 @@
 /* Fontes: Início */
-.klip-toolbar {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-weight: bold;
-}
-
 .cx-input-label {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size:12px;
@@ -55,7 +50,12 @@
 
 .dashboard-tab.active {
     font-weight: bold;
-}    
+}
+
+.klip-toolbar {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+}
 
 /* Fontes: Fim */
 
